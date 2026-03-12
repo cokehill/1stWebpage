@@ -4,6 +4,7 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Highlights from './components/Highlights';
 import Booking from './components/Booking';
+import Order from './components/Order';
 import Location from './components/Location';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
@@ -20,6 +21,7 @@ function App() {
       <Menu />
       <Highlights />
       <Booking />
+      <Order />
       <Location />
       <Gallery />
       <Footer />

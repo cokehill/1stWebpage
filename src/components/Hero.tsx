@@ -8,6 +8,13 @@ export default function Hero() {
     }
   };
 
+  const scrollToOrder = () => {
+    const element = document.querySelector('#order');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-16">
       <div
@@ -52,13 +59,13 @@ export default function Hero() {
           >
             Make a Reservation
           </button>
-          <a
-            href="tel:09151820000"
+          <button
+            onClick={scrollToOrder}
             className="bg-white hover:bg-gray-100 text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold transition-colors shadow-lg flex items-center justify-center gap-2 w-full sm:w-auto"
           >
             <Phone size={20} />
-            Order Takeaway
-          </a>
+            Order
+          </button>
         </div>
 
         <div className="mt-8">

@@ -11,6 +11,7 @@ export default function Navigation({ mobileMenuOpen, setMobileMenuOpen }: Naviga
     { href: '#about', label: 'About' },
     { href: '#menu', label: 'Menu' },
     { href: '#booking', label: 'Book Now' },
+    { href: '#order', label: 'Order' },
     { href: '#location', label: 'Location' },
     { href: '#gallery', label: 'Gallery' },
   ];
